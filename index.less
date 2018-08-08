@@ -23,3 +23,35 @@
 @import "styles/text";
 @import "styles/tooltips";
 @import "styles/tree-view";
+
+.workspace {
+  background: url("/Users/victorartemenco/Desktop/wood-theme/images/background.jpg");
+
+  .tab-bar{
+    background-color: @transparent;
+  }
+
+  .pane {
+    background-color: @transparent;
+  }
+
+  .footer{
+    background-color: @transparent;
+
+  }
+  .status-bar {
+    background-color: rgba(0,0,0, 0.2)
+  }
+}
+
+.editor {
+  background: @transparent;
+
+
+}
+
+.editor.is-focused {
+  .scroll-view {
+    background-color: rgba(20, 21, 23, .25);
+  }
+}
